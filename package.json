@@ -1,0 +1,18 @@
+{
+  "name": "time-watcher-bot",
+  "version": "1.0.0",
+  "description": "Bot to integrate Slack and Hour bank",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/bot.js"
+  },
+  "author": "Anderson Fernando Custódio",
+  "email": "afcustodioo@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.4.1",
+    "progress": "^1.1.8",
+    "request": "^2.60.0",
+    "slackbots": "^0.3.0"
+  }
+}
