@@ -19,10 +19,12 @@ var TimeWatcherBot = require('../lib/timewatcherbot');
  */
 var token = process.env.BOT_API_KEY || require('../token');
 var name = process.env.BOT_NAME;
+var environment = process.env.ENVIRONMENT;
 
 var timewatcherbot = new TimeWatcherBot({
   token: token,
-  name: name
+  name: name,
+  environment: environment
 });
 
 timewatcherbot.run();
